@@ -1,0 +1,31 @@
+*{
+        box-sizing: border-box;
+        margin: 15px;
+       
+        
+}
+.content{
+        margin: 30px;
+        
+        border: 1px solid black;
+        
+        color: #ffffff;
+        /* background-image: url("https://img.freepik.com/fotos-gratis/estadio-de-futebol-a-noite-generative-ai_260559-480.jpg?w=360&t=st=1695925035~exp=1695925635~hmac=1ee30adc634a608e3b2d1ed4b19d9171df12b08acc87af28b7341167a76ece07"); */
+               
+}
+.areausave{
+        background: url("https://img.freepik.com/fotos-gratis/estadio-de-futebol-a-noite-generative-ai_260559-480.jpg?w=360&t=st=1695925035~exp=1695925635~hmac=1ee30adc634a608e3b2d1ed4b19d9171df12b08acc87af28b7341167a76ece07") no-repeat;
+        
+
+}
+
+
+.lista{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        list-style: none;
+        padding: 0;
+        margin: 5%;
+        font-weight: bold;
+        color: #ffffff;
+}
